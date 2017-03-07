@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">Inventory</string>
+
+    <!-- Label for the application app bar [CHAR LIMIT=20] -->
+    <string name="app_label">Store Inventory</string>
+
+    <!-- Label for overflow menu option that inserts fake item data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all store data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Items</string>
+
+    <!-- Title for the activity to add a new item [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_item">Add an Item</string>
+
+    <!-- Title for the activity to edit an item [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_item">Edit an Item</string>
+
+    <!-- Label for editor menu option to save item and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current item [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Toast message in editor when new item has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_item_successful">Item saved</string>
+
+    <!-- Toast message in editor when new item has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_item_failed">Error with saving item</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Label for quantity information in the editor [CHAR LIMIT=30] -->
+    <string name="category_quantity">Quantity</string>
+
+    <!-- Label for price per piece information in the editor [CHAR LIMIT=30] -->
+    <string name="category_price">Per Piece</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_item_name">Name</string>
+
+    <!-- Text hint for item description field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_item_desc">Description</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_item_price">Price</string>
+
+    <!-- Units for price of the item (dollars = $) [CHAR LIMIT=2] -->
+    <string name="unit_item_price">$</string>
+
+    <!-- Title text for the empty view [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">The shelves are bare.</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add an item. [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Press the + below to begin adding an item.</string>
+
+    <!-- Leave Editor Activity Alert Dialog question [CHAR LIMIT=50] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Leave Editor Activity Alert Dialog option to discard changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Leave Editor Activity option to return to editing [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current item was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_item_successful">Item deleted</string>
+
+    <!-- Toast message in editor when current item has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_item_failed">Error with deleting item</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current item [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this item?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current item [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current item [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Toast message in editor when all items are successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="catalog_delete_items_successful">All items deleted</string>
+
+    <!-- Toast message in editor when all items have failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="catalog_delete_items_failed">Error with deleting items</string>
+
+    <!-- Dialog message to ask the user to confirm deleting all items [CHAR LIMIT=NONE] -->
+    <string name="delete_table_dialog_msg">Delete all items?</string>
+
+    <!-- Order button on editor activity to start email intent to place new order for item [CHAR LIMIT=NONE] -->
+    <string name="order_button">Place Order</string>
+
+    <!-- Email subject for order -->
+    <string name="order_subject">New Order for My Store</string>
+
+    <!-- Email address for order -->
+    <string name="order_email">distribution@mysupplier.com</string>
+
+    <!-- Send order when button pushed -->
+    <string name="send_order">Send mail&#8230;</string>
+
+    <!-- Body text intro for order email -->
+    <string name="order_intro">I would like to place an order for the following item:\u0020</string>
+
+    <!-- Sold Button. Inventory Layout -->
+    <string name="sold_button">Sold!</string>
+
+    <!-- Load Image Button. EditorActivity -->
+    <string name="load_image">Load image&#8230;</string>
+
+    <!-- No image selected. EditorActivity -->
+    <string name="no_image_selected">No image selected.</string>
+
+    <!-- Throw error. Toast text. Used on catch. -->
+    <string name="throw_error">Something went wrong.</string>
+
+    <!-- Sold button. Item is out of stock. Inventory Activity -->
+    <string name="out_of_stock">\u0020is out of stock</string>
+
+    <!-- Required fields not completed on save. Editor Activity -->
+    <string name="required_fields">Please complete all fields and load image before saving.</string>
+
+</resources>
